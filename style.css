@@ -477,9 +477,30 @@ margin-bottom: -90px;
     .imagens{
         left: -15px;
     }
-}
-    
-
+}@media screen and (max-width: 368px){
+    .imgi{
+        display: none;
+    }
+    h3{
+        margin-left:-100px;
+        margin-bottom: -20px;
+    }
+    .botoes{
+        margin-left: -140px;
+        margin-top: 20px;
+    }
+    .imgi2{
+        display: none;
+    }
+ .titulo2{
+    margin-top: -280px;
+    margin-left: 100px
+ }
+ .pp{
+    margin-left:70px;
+    font-size: 16px;
+ }
+ }
 
 
 
