@@ -403,104 +403,29 @@ margin-bottom: -90px;
 }
 @media screen and (max-width:614px) {
    .imgi2{
-    right: -5px;
+    display: none;
    } 
+   .titulo2{
+    margin-left: 200px;
+    margin-top: 30px;
+   }
+   .pp{
+    width: 500px;
+   }
 }
-@media screen and (max-width: 540px) {
-    .imgi2{
-        top: 750px;
-    }
-    span{
-        font-size: 40px;
-    }
-    h3{
-        font-size: 25px;
-    }
-    
-}
-@media screen and (max-width: 516px){
-    .sobreMim{
-        display: flex;
-        flex-direction: column;
-    }
-    .pp{
-        padding-left: 230px;
-    }
-    .titulo2{
-        padding-left: 230px;
-    }
-    .imgi2{
-        width: 80%;
-        top: 500px;
-    }
-}
-@media screen and (max-width: 480px){
-    .pp{
-        padding-left: 200px;
-    }
-    .titulo2{
-        padding-top: -50px;
-        padding-left: 200px;
-    }
-    .imgi2{
-        right: 50px;
-        
-    }
-}
-@media screen and (max-width: 459px){
-    .pp{
-        padding-left: 160px;
-    }
-    .titulo2{
-        padding-top: -50px;
-        padding-left: 160px;
-    }
-    h3{
-        margin-left: -140px;
-    }
-    .botoes{
-        margin-left: -140px;
-    }
-    .imagens{
-        top: 25px;
-    }
-}@media screen and (max-width: 416px){
-    h3{
-        margin-left: -160px;
-    }
-    .botoes{
-        margin-left: -160px;
-    }
-    nav{
-        margin-left: 100px;
-    }
-    .imagens{
-        left: -15px;
-    }
-}@media screen and (max-width: 368px){
+@media screen and (max-width:554px){
     .imgi{
         display: none;
     }
     h3{
-        margin-left:-100px;
-        margin-bottom: -20px;
+
+        width: 300px;
     }
-    .botoes{
-        margin-left: -140px;
-        margin-top: 20px;
+    .pp{
+        margin-left: 70px;
     }
-    .imgi2{
-        display: none;
-    }
- .titulo2{
-    margin-top: -280px;
-    margin-left: 100px
- }
- .pp{
-    margin-left:70px;
-    font-size: 16px;
- }
- }
+    
+}
 
 
 
