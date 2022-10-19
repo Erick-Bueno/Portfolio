@@ -287,8 +287,8 @@ transform: translateX(0px);
     z-index: 9;
     position: fixed;
     top: 0;
-    left: 0;
-    overflow-y: hidden;
+    right: 0;
+    overflow: hidden;
     transition: 0.5s;
     
 
@@ -296,19 +296,27 @@ transform: translateX(0px);
 .mobile{
    text-align: center;
    position: relative;
-   top: 100px;
+   left: 30px;
+   top: 60px;
    padding-bottom: 20px;
 }
 .mobile ul{
     display: flex;
     flex-direction: column;
 }
+/* o li ou a da barra de navegação mobile devem ter uma largura fixa */
 .mobile li{
     padding-bottom: 60px;
+    width: 200px;
+    
 }
 .fecharr{
     font-size: 50px;
     margin-top: 20px;
+    background-color: #4A3221;
+    margin-left: 20px;
+    border: none;
+    cursor: pointer;
     
 }
 

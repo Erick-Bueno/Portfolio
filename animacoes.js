@@ -14,7 +14,7 @@ window.addEventListener("scroll", function(){
 })
 
 mobi.addEventListener("click", function(){
-    over.style.width = "100%"
+    over.style.width = "55%"
 })
 fechar.addEventListener("click", function(){
     over.style.width = "0%"
