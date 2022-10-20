@@ -34,7 +34,9 @@ li{
 a{
     text-decoration: none;
     color: white;
+    padding-right: 20px;
     padding-left: 20px;
+
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     transition: 1s;
 }
@@ -303,6 +305,7 @@ transform: translateX(0px);
 .mobile ul{
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 /* o li ou a da barra de navegação mobile devem ter uma largura fixa */
 .mobile li{
@@ -319,6 +322,52 @@ transform: translateX(0px);
     cursor: pointer;
     
 }
+.borda1{
+    border-bottom: 1px solid #FF8126;
+    border-width: 10px;
+    border-radius: 15px;
+    /*width: 80px;*/
+    width: 0px;
+    border-radius: 15px;
+    top: 0px;
+    left: 60px;
+    top: 30px;
+    position: absolute;
+    transition: 1s;
+}
+.borda2{
+    border-bottom: 1px solid #FF8126;
+    border-width: 10px;
+    border-radius: 15px;
+    width: 0px;
+    top: 20px;
+    left: 40px;
+    top: 115px;
+    position: absolute;
+    transition: 1s;
+}
+.borda3{
+    border-bottom: 1px solid #FF8126;
+    border-width: 10px;
+    border-radius: 15px;
+    width: 0px;
+    top: 200px;
+    left: 40px;
+    transition: 1s;
+    position: absolute;
+}
+.borda4{
+    border-bottom: 1px solid #FF8126;
+    border-width: 10px;
+    border-radius: 15px;
+    width: 0px;
+    top: 60px;
+    left: 30px;
+    top: 287px;
+    transition: 1s;
+    position: absolute;
+}
+
 
 
 
@@ -474,7 +523,10 @@ margin-bottom: -90px;
         width: 300px;
     }
     .pp{
-        margin-left: 70px;
+        margin-left: 170px;
+        font-size: 20px;
+        width: 300px;
+        
     }
     .nav-desktop{
         display: none;
@@ -512,8 +564,20 @@ margin-bottom: -90px;
 @media screen and (max-width: 508px) {
     .pp{
         font-size: 20px;
+        margin-left: 120px;
        
     }
+    .titulo2{
+        margin-left: 120px;
+    }
+}
+@media screen and (max-width: 434px) {
+    .pp{
+        font-size: 15px;
+        margin-left: 120px;
+       
+    }
+  
 }
 
 
