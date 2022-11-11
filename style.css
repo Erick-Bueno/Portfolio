@@ -400,7 +400,7 @@ top: 310px;
 h3{
 font-size: 30px;
 margin-top: -40px;
-margin-left: -100px;
+margin-left: -150px;
 
 
 }
@@ -577,7 +577,44 @@ margin-bottom: -90px;
         margin-left: 120px;
        
     }
+    .botoes{
+        margin-left: -150px;
+    }
   
+
+}
+@media screen and (max-width:374px){
+    .botoes a{
+        padding-right: 1px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    span{
+        font-size: 40px;
+        
+    }
+    .botoes{
+        display: inline-block;
+        width: 100px;
+    }
+    .link{
+        margin-left: -30px;
+    }
+    .titulo2{
+        font-size: 30px;
+        margin-left: 170px;
+    }
+    h3{
+      font-size: 25px;
+      width: 230px;
+      
+
+    }
+    a{
+       padding-right: 6px;
+    }
+    
 }
 
 
