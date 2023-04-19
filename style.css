@@ -31,14 +31,21 @@ li{
     list-style: none;
     display: inline-block;
 }
-a{
+nav a{
     text-decoration: none;
     color: white;
-    padding-right: 20px;
     padding-left: 20px;
+    padding-right: 20px;
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     transition: 1s;
+}
+a{
+    text-decoration: none;
+    height: 250px;
+    width: 250px;
+    margin: 20px;
+    border-radius: 50%; 
 }
 a:hover{
     color:#CC671F;
@@ -202,6 +209,7 @@ flex-direction: column;
 color:#000000 ;
 cursor: pointer;
 
+
 }
 .p11:hover{
 filter: grayscale(0%);
@@ -232,6 +240,7 @@ padding: 20px;
 .p12{
 transform: translateY(65px);
 transition: 0.5s;
+
 
 
 
