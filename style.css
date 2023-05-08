@@ -677,10 +677,14 @@ margin-bottom: -90px;
       }
       .titulo2{
         margin-left: 80px;
+      
+        margin-top: 110px;
+        margin-bottom: 20px;
     }
     .link{
         margin-left: -40px;
     }
+ 
 }
 @media screen and (max-width:400px){
     .botoes a{
