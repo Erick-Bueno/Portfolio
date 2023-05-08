@@ -436,6 +436,9 @@ margin-left: -150px;
 
 
 }
+.p11{
+    margin-left: 5px;
+}
 span{
 font-size: 60px;
 }
@@ -494,9 +497,7 @@ font-size: 40px;
 display: flex;
 flex-direction: column;
 }
-.p11{
-margin: 20px;
-}
+
 
 footer{
 margin-left: -60px;
