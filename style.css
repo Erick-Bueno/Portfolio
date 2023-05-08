@@ -147,6 +147,7 @@ padding-bottom: 30px;
 margin-top: 50px;
 justify-content: center;
 align-items: center;
+position: relative;
 
 
 }
@@ -386,9 +387,19 @@ transform: translateX(0px);
 
 
 @media screen and (max-width:1024px){
-    .botoes{
-        display: flex
-    }
+  .link{
+    margin-left: -31;
+  }
+  span{
+    font-size: 56px;
+  }
+  h3{
+    font-size: 30px;
+  }
+  .botoes{
+    width: 400px;
+  }
+
 }
 
 @media screen and (max-width:945px){
@@ -510,16 +521,42 @@ margin-bottom: -90px;
 @media screen and (max-width:768px){
     .botoes{
         margin-left: -140px;
+        width: 100px;
     }
     .imgi2{
-        left: -170px;
+       top: 0;
+        position: relative;
+        width: 500px;
+        left: -80px;
+      
+        
        
     }
+   
     .pp{
         margin-left: 200px;
     }
     .titulo2{
         margin-left: 220px;
+    }
+    .nav-desktop{
+        display: none;
+    }
+    .menu-m{
+        display: block;
+    }
+    header{
+        height: 30px;
+    }
+    .mobile{
+        font-size: 20px;
+        margin-left: -10px;
+        margin-top: -40px;
+        left: 120px;
+        
+    }
+    .link{
+        margin-left: -30px;
     }
 }
 @media screen and (max-width:728px) {
@@ -636,6 +673,9 @@ margin-bottom: -90px;
       .titulo2{
         margin-left: 80px;
     }
+    .link{
+        margin-left: -40px;
+    }
 }
 @media screen and (max-width:400px){
     .botoes a{
@@ -658,12 +698,12 @@ margin-bottom: -90px;
     h3{
         font-size: 25px;
         
-        margin-left: -20px;
+        margin-left: -45px;
         
   
       }
       .botoes{
-        margin-left: -10px;
+        margin-left: -40px;
       }
       
 }
@@ -673,18 +713,22 @@ margin-bottom: -90px;
         font-size: 40px;
         
     }
-    .botoes{
-        display: inline-block;
-        width: 100px;
-        margin-left: 20px;
-    }
+   
     .link{
-        margin-left: -30px;
+        margin-left: -50px;
+        margin-top: -20px;
     }
     .titulo2{
         font-size: 30px;
         margin-left: 140px;
        
+    }
+    .botoes{
+       
+        display: flex;
+        flex-direction: column;
+        height: 20px;
+        text-align: center;
     }
     h3{
       font-size: 25px;
@@ -698,6 +742,9 @@ margin-bottom: -90px;
     }
     .mobile{
         margin-left: -55px;
+    }
+    .link{
+        margin-left: -39px;
     }
     
 }
