@@ -10,7 +10,7 @@ const borda1 = document.querySelector(".borda1")
 const borda2 = document.querySelector(".borda2")
 const borda3 = document.querySelector(".borda3")
 const borda4 = document.querySelector(".borda4")
-console.log(ele)
+
 window.addEventListener("scroll", function(){
     const distancia_do_scroll_pro_topo_da_Pagina = window.pageYOffset + ((window.innerHeight * 3)/4);
     if(distancia_do_scroll_pro_topo_da_Pagina > ele.offsetTop){//ele.offsetTop: distancia q o elemento esta para o topo da pagina
@@ -23,6 +23,7 @@ window.addEventListener("scroll", function(){
 
 mobi.addEventListener("click", function(){
     over.style.width = "65%"
+    document.body.style.overflow = "hidden"
 })
 
 
@@ -33,6 +34,7 @@ fechar.addEventListener("click", function(){
     borda2.style.width = "0%"
     borda3.style.width = "0%"
     borda4.style.width = "0%"
+    document.body.style.overflow = "auto"
 })
 l1.addEventListener("click", function(){
     borda1.style.width ="80px"
