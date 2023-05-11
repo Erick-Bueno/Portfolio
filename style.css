@@ -720,6 +720,12 @@ margin-bottom: -90px;
       
 }
 
+@media screen and (max-width:359px) {
+    .mobile{
+        margin-left: -45px;
+    }
+}
+
 @media screen and (max-width: 320px){
     span{
         font-size: 40px;
