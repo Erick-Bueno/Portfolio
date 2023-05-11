@@ -315,6 +315,7 @@ transform: translateX(0px);
     
 
 }
+
 .mobile{
    
   
@@ -394,6 +395,10 @@ transform: translateX(0px);
 }
 .links-cont{
     position: relative;
+    
+}
+.nav-desktop ul {
+    display: flex;
 }
 
 
@@ -590,6 +595,8 @@ margin-bottom: -90px;
         width: 200px;
         margin-left: auto;
         margin-right: auto;
+        display: flex;
+        flex-direction: column;
         
         
     }
