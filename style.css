@@ -323,7 +323,8 @@ transform: translateX(0px);
 .mobile ul{
     display: flex;
     flex-direction: column;
-    position: relative;
+    text-align: center;
+    
 }
 /* o li ou a da barra de navegação mobile devem ter uma largura fixa */
 .mobile li{
@@ -720,9 +721,9 @@ margin-bottom: -90px;
       
 }
 
-@media screen and (max-width:339px) {
+@media screen and (max-width:350px) {
     .mobile{
-        margin-left: -55px;
+        margin-left: -50px;
     }
 }
 
