@@ -684,6 +684,9 @@ margin-bottom: -90px;
     .link{
         margin-left: -40px;
     }
+    .mobile{
+        margin-left: -25px;
+    }
  
 }
 @media screen and (max-width:400px){
