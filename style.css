@@ -310,20 +310,21 @@ transform: translateX(0px);
     right: 0;
     overflow: hidden;
     transition: 0.5s;
+    text-align: left;
+   
     
 
 }
 .mobile{
-   text-align: center;
-   position: relative;
-   left: 30px;
-   top: 60px;
+   
+  
+   text-align: left;
    padding-bottom: 20px;
 }
 .mobile ul{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+    
+    
+   
     
 }
 /* o li ou a da barra de navegação mobile devem ter uma largura fixa */
@@ -339,6 +340,7 @@ transform: translateX(0px);
     margin-left: 20px;
     border: none;
     cursor: pointer;
+    display: none;
     
 }
 .borda1{
@@ -350,9 +352,10 @@ transform: translateX(0px);
     border-radius: 15px;
     top: 0px;
     left: 60px;
-    top: 30px;
+    top: 20px;
     position: absolute;
     transition: 1s;
+    display: none;
 }
 .borda2{
     border-bottom: 1px solid #FF8126;
@@ -361,30 +364,36 @@ transform: translateX(0px);
     width: 0px;
     top: 20px;
     left: 40px;
-    top: 115px;
+   
     position: absolute;
     transition: 1s;
+    display: none;
 }
 .borda3{
     border-bottom: 1px solid #FF8126;
     border-width: 10px;
     border-radius: 15px;
     width: 0px;
-    top: 200px;
+    top: 20px;
     left: 40px;
     transition: 1s;
     position: absolute;
+    display: none;
 }
 .borda4{
     border-bottom: 1px solid #FF8126;
     border-width: 10px;
     border-radius: 15px;
     width: 0px;
-    top: 60px;
+  
     left: 30px;
-    top: 287px;
+    top: 20px;
     transition: 1s;
     position: absolute;
+    display: none;
+}
+.links-cont{
+    position: relative;
 }
 
 
@@ -535,6 +544,19 @@ margin-bottom: -90px;
         
        
     }
+    .borda1{
+        display: block;
+    }
+    .borda2{
+        display: block;
+    }
+    .borda3{
+        display: block;
+    }
+    .borda4{
+        display: block;
+    }
+    
    
     .pp{
         margin-left: 200px;
@@ -543,21 +565,45 @@ margin-bottom: -90px;
         margin-left: 220px;
     }
     .nav-desktop{
-        display: none;
+        
+        position: fixed;
+        height: 100%;
+        width: 0;
+        background-color: #4A3221;
+        top: -5px;
+        text-align: center;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        transition: 0.5s;
+        right: 0;
+       
+        
+
     }
+    .fecharr{
+        display: block;
+        position: absolute;
+    }
+    .nav-desktop ul{
+        margin-top: 120px;
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        
+        
+    }
+    .nav-desktop ul li {
+        margin-bottom: 50px;
+    }
+ 
     .menu-m{
         display: block;
     }
     header{
         height: 30px;
     }
-    .mobile{
-        font-size: 20px;
-        margin-left: -10px;
-        margin-top: -40px;
-        left: 120px;
-        
-    }
+   
     .link{
         margin-left: -30px;
     }
@@ -607,9 +653,7 @@ margin-bottom: -90px;
         width: 300px;
         
     }
-    .nav-desktop{
-        display: none;
-    }
+   
     .menu-m{
         display: block;
     }
@@ -631,13 +675,7 @@ margin-bottom: -90px;
     .img5{
         width: 30px;
     }
-    .mobile{
-        font-size: 20px;
-        margin-left: -10px;
-        margin-top: -40px;
-        left: 50px;
-        
-    }
+  
     
 }
 @media screen and (max-width: 508px) {
@@ -684,19 +722,14 @@ margin-bottom: -90px;
     }
     .link{
         margin-left: -40px;
-    }
-    .mobile{
-        margin-left: -25px;
-    }
+
  
 }
 @media screen and (max-width:400px){
     .botoes a{
         padding-right: 1px;
     }
-    .mobile{
-        margin-left: -30px;
-    }
+ 
     .pp{
         margin-left: 70px;
     }
@@ -705,9 +738,7 @@ margin-bottom: -90px;
     }
 }
 @media screen and (max-width: 375px){
-    .mobile{
-        margin-left: -45px;
-    }
+
     h3{
         font-size: 25px;
         
@@ -722,9 +753,7 @@ margin-bottom: -90px;
 }
 
 @media screen and (max-width:350px) {
-    .mobile{
-        margin-left: -50px;
-    }
+ 
 }
 
 @media screen and (max-width: 320px){
@@ -760,9 +789,7 @@ margin-bottom: -90px;
     a{
        padding-right: 6px;
     }
-    .mobile{
-        margin-left: -55px;
-    }
+  
     .link{
         margin-left: -39px;
     }
@@ -783,4 +810,4 @@ margin-bottom: -90px;
 }
 
 
-
+}

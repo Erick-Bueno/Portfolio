@@ -1,6 +1,6 @@
 const ele = document.querySelector(".imgi2")
 const mobi = document.querySelector("#open-mob")
-const over = document.querySelector(".overlay")
+const over = document.querySelector(".nav-desktop")
 const fechar = document.querySelector(".fecharr")
 const l1 = document.querySelector("#link1")
 const l2 = document.querySelector("#link2")
@@ -22,7 +22,7 @@ window.addEventListener("scroll", function(){
 })
 
 mobi.addEventListener("click", function(){
-    over.style.width = "55%"
+    over.style.width = "65%"
 })
 
 
