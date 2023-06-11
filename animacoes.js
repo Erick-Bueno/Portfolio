@@ -22,26 +22,24 @@ window.addEventListener("scroll", function(){
 })
 
 mobi.addEventListener("click", function(){
-    over.style.width = "65%"
     document.body.style.overflow = "hidden"
+    over.classList.toggle("abrirmenu")
 })
-
-
 
 fechar.addEventListener("click", function(){
-    over.style.width = "0%"
-    borda1.style.width = "0%"
-    borda2.style.width = "0%"
-    borda3.style.width = "0%"
-    borda4.style.width = "0%"
     document.body.style.overflow = "auto"
+    over.classList.toggle("abrirmenu")
 })
+
+
 l1.addEventListener("click", function(){
     borda1.style.width ="80px"
     borda2.style.width = "0%"
     borda3.style.width = "0%"
     borda4.style.width = "0%"
 })
+
+
 l2.addEventListener("click", function(){
     borda1.style.width ="0%"
     borda2.style.width = "125px"
