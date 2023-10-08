@@ -11,6 +11,18 @@ body{
     background-image: linear-gradient(to right,#4A3221, #93450e);
 
 }
+.title-project{
+    font-family:"Oswald";
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+.desc-project{
+    font-family:"Oswald";
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
 header{
     display: flex;
     max-width: 100%;
@@ -213,6 +225,7 @@ cursor: pointer;
 
 
 }
+
 .p11:hover{
 filter: grayscale(0%);
 box-shadow: 0 0 1em black;
@@ -231,6 +244,8 @@ flex-direction: row;
 justify-content: center;
 align-items: center;
 padding-bottom: 30px;
+padding: 1rem;
+
 
 
 }
